@@ -85,10 +85,10 @@ WSGI_APPLICATION = 'BhagwatGeeta.wsgi.application'
 DATABASES = {
 'default': {
     'ENGINE': 'django.db.backends.postgresql',
-    'NAME': 'dab8uq4tk1bshe',
-    'USER': 'yijzoslggeeopp',
-    'PASSWORD': 'ab0efb114448aa3a558033f72c0a998d5077f6f2f3f18b2fc301ea7f6fe008c8',
-    'HOST': 'ec2-34-230-110-100.compute-1.amazonaws.com',
+    'NAME': 'd3q8ni684i9omk',
+    'USER': 'femyvybncdrnqm',
+    'PASSWORD': 'b743acd7267cae6bed70d1a17620b0a9140ea35bca71df17fe546d7dd933ab5b',
+    'HOST': 'ec2-3-230-238-86.compute-1.amazonaws.com',
     'PORT': '5432',
     }
 }
