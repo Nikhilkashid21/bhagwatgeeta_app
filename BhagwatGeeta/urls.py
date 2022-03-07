@@ -22,7 +22,8 @@ from shlok import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('api/shloks',views.ShlokList.as_view())
+    path('api/adhyay/<int:pk>',views.ShlokList.as_view()),
+    path('api/adhyay',views.AdhyayList.as_view())
 ]
 if settings.DEBUG:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
