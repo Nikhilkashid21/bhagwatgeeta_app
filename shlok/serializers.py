@@ -10,4 +10,4 @@ class shlokSerializer(serializers.ModelSerializer):
 class adhyaySerializer(serializers.ModelSerializer):
     class Meta:
         model=Adhyay
-        fields= ['id','title']
+        fields= ['id','title','subtitle']

@@ -3,6 +3,7 @@ from django.db import models
 # Create your models here.
 class Adhyay(models.Model):
     title = models.CharField(max_length=100)
+    subtitle = models.CharField(max_length=150)
 
 class Shlok(models.Model):
     title = models.CharField(max_length=150)
